@@ -1,3 +1,87 @@
+/* Header styles start */
 .header {
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    height: 100px;
+    min-height: 80px;
+}
+
+.container {
+    background-color: blue;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    padding-right: 15px;
+    padding-left: 15px;
     
+}
+
+.main-nav {
+    border-radius: 40px;
+    min-height: 80px;
+    background: #5c5252;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.logo-box {
+    display: inline-block;
+    padding-top: 22px;
+    padding-left: 22px;
+}
+
+.logo-box img {
+    width: 95px;
+}
+
+.main-menu {
+    display: inline;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-menu li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    border: transparent;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+/* Header styles end */
+
+
+
+
+
+
+
+
+
+
+
+
+::selection {
+    background: #ff589e;
+    color: #fff;
 }
