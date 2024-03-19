@@ -10,7 +10,6 @@
 }
 
 .container {
-    background-color: blue;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -26,7 +25,7 @@
 .main-nav {
     border-radius: 40px;
     min-height: 80px;
-    background: #5c5252;
+    background: #fff;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
     position: relative;
 }
@@ -55,9 +54,9 @@
 
 .main-menu li a{
     text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    color: #1e1e1e;
     height: 40px;
     line-height: 40px;
     border: transparent;
@@ -70,7 +69,15 @@
 
 /* Header styles end */
 
-
+.header-bg {
+    overflow: hidden;
+    position: relative;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
 
 
 
