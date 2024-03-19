@@ -79,9 +79,46 @@
     height: 100vh;
 }
 
+.header-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-55%);
+    text-align: center;
+    width: 100%;
+}
 
+.header-text h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+    color: #fff;
+}
 
+.header-text p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    margin-bottom: 40px;
+    position: relative;
+}
 
+.header-text a {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #ff589e;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
 
 
 
