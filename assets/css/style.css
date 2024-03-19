@@ -69,6 +69,7 @@
 
 /* Header styles end */
 
+
 .header-bg {
     overflow: hidden;
     position: relative;
@@ -120,10 +121,59 @@
     transition: all 0.3s ease 0s;
 }
 
+.home-feature {
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-top: -220px;
+    position: relative;
+    z-index: 9;
+}
 
+.home-feature-card {
+    display: inline-block;
+    width: 265px;
+    margin-left: 42px;
+}
 
+.home-feature-card-box {
+    cursor: pointer;
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
 
+.home-feature-card-box .icon {
+    transition: all 0.3s ease 0s;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+    background: #8261ee;
+    border-radius: 50%;
+}
 
+.home-feature-card-box .icon img {
+    position: absolute;
+    top: 17px;
+    left: 17px;
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.7px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
 
 ::selection {
     background: #ff589e;
