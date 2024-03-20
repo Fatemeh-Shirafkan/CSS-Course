@@ -194,22 +194,22 @@
     padding-bottom: 80px;
 }
 
-.aboutUS-contant-box {
+.aboutUS-content-box {
     position: relative;
 }
 
-.aboutUS-contant-box div {
+.aboutUS-content-box div {
     display: inline-block;
 }
 
-.aboutUS-contant-box-text {
+.aboutUS-content-box-text {
     width: 540px;
     position: absolute;
     top: 24%;
     right: 0;
 }
 
-.aboutUS-contant-box-text h2{
+.aboutUS-content-box-text h2{
     font-weight: 500;
     font-size: 24px;
     line-height: 42px;
@@ -219,7 +219,7 @@
     position: relative;
 }
 
-.aboutUS-contant-box-text p{
+.aboutUS-content-box-text p{
     font-weight: 400;
     font-size: 16px;
     color: #777;
@@ -231,7 +231,7 @@
     left: 0;
 }
 
-.aboutUS-contant-box-img {
+.aboutUS-content-box-img {
     position: absolute;
     right: 0;
 }
