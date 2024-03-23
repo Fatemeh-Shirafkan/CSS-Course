@@ -287,7 +287,7 @@
     font-size: 16px;
     position: relative;
     z-index: 5;
-    padding: 0 136px;
+    padding: 0 226px;
 }
 
 .work-process-row div {
@@ -343,8 +343,8 @@
 
 .mini-box span {
     display: block;
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
     color: #777;
     letter-spacing: .75px;
     line-height: 22px;
@@ -356,6 +356,87 @@
 .blog-title {
     text-align: center;
 }
+
+.blog-title h2 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.blog-title p {
+    padding: 0 200px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    color: #777;
+}
+
+.blog-post {
+    display: inline-block;
+    width: 350px;
+    margin: 0 8px;
+}
+
+.blog-post .img {
+    overflow: hidden;
+    border-radius: 20px;
+    /* position: relative; */
+    height: 200px;
+}
+
+.blog-content {
+    /* margin-top: -30px; */
+    padding-top: 50px;
+    text-align: center;
+}
+
+.blog-content h3 {
+    margin-bottom: 20px !important;
+}
+
+.blog-content h3 a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.blog-content .text {
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 0.26px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.blog-content .btn {
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #8261ee;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
 
 /* Blog styles end */
 
