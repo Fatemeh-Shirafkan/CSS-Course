@@ -353,11 +353,11 @@
 
 
 /* Blog styles start */
-.blog-title {
+.section-title {
     text-align: center;
 }
 
-.blog-title h2 {
+.section-title h2 {
     font-weight: 500;
     font-size: 28px;
     color: #1e1e1e;
@@ -366,7 +366,7 @@
     margin-bottom: 20px;
 }
 
-.blog-title p {
+.section-title p {
     padding: 0 200px;
     font-weight: 400;
     font-size: 16px;
@@ -440,6 +440,80 @@
 
 /* Blog styles end */
 
+/* Contact Us styles start */
+
+.contactUs {
+    background: #f2f2fe;
+}
+
+.contactUs-content {
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+}
+
+.contactUs-form {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.contactUs-content-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.contact-text p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 0.26px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.form-input {
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #eee;
+    width: 240px;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    appearance: none;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.textarea {
+    width: 93%;
+    height: 150px;
+    resize: none;
+    padding: 20px;
+    margin-right: 0;
+}
+
+.form-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #8261ee;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* Contact Us styles end */
 
 ::selection {
     background: #ff589e;
