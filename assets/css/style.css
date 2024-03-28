@@ -1,4 +1,4 @@
-/* Header styles start */
+/* Header nav styles start */
 .header {
     position: fixed;
     top: 30px;
@@ -66,10 +66,9 @@
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
+/* Header nav styles end */
 
-/* Header styles end */
-
-
+/* Header background styles start */
 .header-bg {
     background-image: url(../images/banner-bg.png);
     overflow: hidden;
@@ -79,7 +78,9 @@
     background-size: cover;
     height: 100vh;
 }
+/* Header background styles end */
 
+/* Header content styles start */
 .header-text {
     position: absolute;
     top: 50%;
@@ -132,7 +133,7 @@
 .home-feature-card {
     display: inline-block;
     width: 260px;
-    margin-left: 36px;
+    margin-left: 84px;
 }
 
 .home-feature-card-box {
@@ -184,10 +185,10 @@
     position: relative;
     z-index: 2;
 }
+/* Header content styles end */
 
 
-/*__________________________________________________*/
-
+/* About us styles start */
 .section {
     /* position: relative; */
     padding-top: 100px;
@@ -201,7 +202,7 @@
 .aboutUS-content-firstTextBox {
     width: 540px;
     vertical-align: top;
-    margin-left: 50px;
+    margin-left: 260px;
     margin-top: 90px;
 
 }
@@ -210,7 +211,7 @@
     width: 540px;
     vertical-align: top;
     margin-top: 128px;
-    margin-right: 40px;
+    margin-right: 260px;
 }
 
 .font-style h2{
@@ -230,13 +231,10 @@
     line-height: 28px;
     letter-spacing: 1px;
 }
+/* About us styles end */
 
 
-
-
-/*__________________________________________________*/
-
-
+/* Work process styles start */
 .work-process {
     min-height: 355px;
     overflow: hidden;
@@ -350,6 +348,7 @@
     line-height: 22px;
     width: 105px;
 }
+/* Work process styles end */
 
 
 /* Blog styles start */
@@ -436,12 +435,10 @@
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
-
-
 /* Blog styles end */
 
-/* Contact Us styles start */
 
+/* Contact Us styles start */
 .contactUs {
     background: #f2f2fe;
 }
@@ -513,6 +510,8 @@
 }
 /* Contact Us styles end */
 
+
+/* Footer styles start */
 .footer {
     background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
     padding-top: 30px;
@@ -565,6 +564,7 @@
     letter-spacing: 0.88px;
     text-transform: uppercase;
 }
+/* Footer styles end */
 
 
 ::selection {
