@@ -1,6 +1,12 @@
 body{
     overflow-x: hidden;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;  
 }
+
+
 
 /* Header nav styles start */
 .header {
@@ -78,6 +84,11 @@ body{
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
+
+.main-menu li a:hover{
+    color: #ff589e;
+
+}
 /* Header nav styles end */
 
 /* Header background styles start */
@@ -128,10 +139,12 @@ body{
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.25px;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.header-text a:hover {
+    background-color: #9d5bd9;
 }
 
 .home-feature {
@@ -170,6 +183,10 @@ body{
     margin-bottom: 30px;
     background: #8261ee;
     border-radius: 50%;
+}
+
+.home-feature-card:hover .home-feature-card-box .icon {
+    background: #ff589e;
 }
 
 .home-feature-card-box .icon img {
@@ -303,7 +320,14 @@ body{
 .work-process-row div {
     display: inline-block;
     margin: 0 18px;
+    transition: all .5s ;
+
 }
+
+.work-process-row div a:hover{
+    transform: translate(0, -10px);
+}
+
 
 .mini-box {
     display: block;
@@ -442,10 +466,11 @@ body{
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.25px;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+}
+
+.blog-content .btn:hover {
+    background-color: #ff589e;
 }
 /* Blog styles end */
 
@@ -520,6 +545,10 @@ body{
     letter-spacing: 0.25px;
     transition: all 0.3s ease 0s;
 }
+
+.form-btn:hover {
+    background-color: #ff589e;
+}
 /* Contact Us styles end */
 
 
@@ -541,7 +570,6 @@ body{
 
 .icon-list li a {
     text-decoration: none;
-    color: #9d5bd9;
     text-align: center;
     background-color: #fff;
     width: 36px;
@@ -549,13 +577,21 @@ body{
     line-height: 36px;
     border-radius: 50%;
     display: inline-block;
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s;
     text-align: center;
+}
+
+.icon-list li :hover {
+    background-color: #ff589e;
 }
 
 .icon-list li a svg {
     vertical-align: sub;
     fill: #8261ee;
+}
+
+.icon-list li:hover .footer-icons-item{
+    fill: #fff;
 }
 
 .footer-text {
@@ -583,13 +619,6 @@ body{
     background: #ff589e;
     color: #fff;
 }
-
-@media screen and (min-width: 320px) {
-    .container {
-        max-width: 270px;
-    }
-}
-
 
 @media screen and (min-width: 576px) {
     .container {
