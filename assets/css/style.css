@@ -6,6 +6,11 @@ body{
     font-style: normal;  
 }
 
+::selection {
+    background: #ff589e;
+    color: #fff;
+}
+
 
 
 /* Header nav styles start */
@@ -119,6 +124,8 @@ body{
     letter-spacing: 1.4px;
     margin-bottom: 30px;
     color: #fff;
+    animation: banerTitle 2s ease-in-out;
+    
 }
 
 .header-text p {
@@ -129,6 +136,8 @@ body{
     letter-spacing: 0.25px;
     margin-bottom: 40px;
     position: relative;
+    animation: banerdescription 2s ease-in-out;
+
 }
 
 .header-text a {
@@ -614,12 +623,32 @@ body{
 }
 /* Footer styles end */
 
+/* Animationes start */
+@keyframes banerTitle {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
 
-::selection {
-    background: #ff589e;
-    color: #fff;
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
+@keyframes banerdescription {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/* Animationes end */
+
+
+/* Responsive start */
 @media screen and (min-width: 576px) {
     .container {
         max-width: 540px;
@@ -635,8 +664,7 @@ body{
 @media screen and (min-width: 992px) {
     .container {
         max-width: 960px;
-    }
-    
+    }   
 }
 
 @media screen and (min-width: 1200px) {
@@ -668,7 +696,6 @@ body{
         margin-left: 9px;
     }
 }
-
 
 @media screen and (max-width: 992px) {
     .hamburger-menu {
@@ -719,3 +746,4 @@ body{
         width: 80%;
     }
 }
+/* Responsive end */
